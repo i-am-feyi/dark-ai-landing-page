@@ -33,7 +33,7 @@ const testimonials = [
 
 export const Testimonials = () => {
   return (
-    <section className="py-20">
+    <section className="py-20 md:py-24">
       <div className="container">
         <div className="section-container">
           <h2 className="section-title">Beyond expectations.</h2>
@@ -46,9 +46,11 @@ export const Testimonials = () => {
             {testimonials.map((testimonial) => (
               <div
                 key={testimonial.name}
-                className="p-6 border border-white/15 rounded-xl bg-[linear-gradient(to_bottom_left,rgb(140,69,255,.3),black)] max-w-xs flex-none"
+                className="p-6 md:p-10 border border-white/15 rounded-xl bg-[linear-gradient(to_bottom_left,rgb(140,69,255,.3),black)] max-w-xs md:max-w-md flex-none"
               >
-                <div className="text-lg tracking-tight">{testimonial.text}</div>
+                <div className="text-lg md:text-2xl tracking-tight">
+                  {testimonial.text}
+                </div>
                 <div className="flex gap-3 items-center mt-5">
                   <div className="relative after:content-[''] after:absolute after:inset-0 after:bg-[rgb(140,69,255)] after:rounded-lg after:mix-blend-soft-light before:content-[''] before:absolute before:inset-0 before:z-10 before:border before:border-white/30 before:rounded-lg">
                     <Image
