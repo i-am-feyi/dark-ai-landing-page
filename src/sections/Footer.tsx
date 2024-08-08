@@ -5,7 +5,7 @@ import SocialYoutube from "@/assets/social-youtube.svg";
 
 export const Footer = () => {
   return (
-    <footer className="py-5">
+    <footer className="py-5 border-t border-white/15">
       <div className="container">
         <div className="flex flex-col md:flex-row gap-4 items-center md:justify-between md:">
           <div className="flex gap-2 items-center">
