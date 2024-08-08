@@ -35,11 +35,9 @@ export const Features = () => {
   return (
     <section className="py-20 md:py-24">
       <div className="container">
-        <div className="text-center max-w-2xl mx-auto">
-          <h2 className="font-medium text-5xl md:text-6xl tracking-tighter leading-tight">
-            Elevate your SEO efforts
-          </h2>
-          <p className="mt-5 text-lg md:text-xl text-white/70 tracking-tight">
+        <div className="section-container">
+          <h2 className="section-title">Elevate your SEO efforts</h2>
+          <p className="section-description">
             From small startups to large enterprises, our AI-driven tool has
             revolutionized the way businesses approach SEO.
           </p>
