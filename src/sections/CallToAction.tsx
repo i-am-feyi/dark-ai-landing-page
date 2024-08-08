@@ -18,7 +18,7 @@ export const CallToAction = () => {
           <div className="relative">
             <div className="heading-container">
               <h2 className="section-title">AI-driven SEO for everyone.</h2>
-              <p className="section-description px-4">
+              <p className={"section-description px-4 max-w-xs mx-auto"}>
                 Achieve clear, impactful results without the complexity.
               </p>
             </div>
