@@ -35,7 +35,7 @@ export const Features = () => {
   return (
     <section className="py-20 md:py-24">
       <div className="container">
-        <div className="section-container">
+        <div className="heading-container">
           <h2 className="section-title">Elevate your SEO efforts</h2>
           <p className="section-description">
             From small startups to large enterprises, our AI-driven tool has

@@ -12,6 +12,10 @@
   }
 
   .section-container {
+    @apply py-20 md:py-24;
+  }
+
+  .heading-container {
     @apply text-center max-w-2xl mx-auto;
   }
 

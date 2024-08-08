@@ -33,9 +33,9 @@ const testimonials = [
 
 export const Testimonials = () => {
   return (
-    <section className="py-20 md:py-24">
+    <section className="section-container">
       <div className="container">
-        <div className="section-container">
+        <div className="heading-container">
           <h2 className="section-title">Beyond expectations.</h2>
           <p className="section-description">
             Our revolutionary AI SEO tools have transformed our clients' strategies.
